@@ -75,6 +75,10 @@ body {
   color: aqua;
 }
 
+/* hovering on the navbar*/
+.topnavigation a:hover {
+  color: aqua;
+}
 .body-bg-img {
   background-image: url(./Homeimage.jpg);
   background-position: center;

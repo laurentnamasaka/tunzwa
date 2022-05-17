@@ -17,8 +17,8 @@
 </head>
 
 <body>
-
     <?php include __DIR__ . '/navbar.php'; ?>
+
 
     <div class="row">
         <div class="col-6">
