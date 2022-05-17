@@ -1,31 +1,11 @@
-<?php
-
-session_start();
-
-if (isset($_SESSION["user_id"])) {
-
-    $mysqli = require __DIR__ . "/database.php";
-
-    $sql = "SELECT * FROM users
-            WHERE id = {$_SESSION["user_id"]}";
-
-    $result = $mysqli->query($sql);
-
-    $user = $result->fetch_assoc();
-}
-
-?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-
-
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css"> -->
+    <title>Project</title>
 
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,17 +13,20 @@ if (isset($_SESSION["user_id"])) {
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <!-- main style document -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-
     <?php include __DIR__ . '/navbar.php'; ?>
 
-    <div class="container">
-        <div class="body-bg-img">
-            <h1>TUNZWA IMMUNISATION SYSTEM</h1>
-        </div>
+    <div class="contact-bg-img">
+        <div class="paragraph1"></div>
+        <h2>Jab for Life:)</h2>
+        <p>Customer Care- +254742555673</p>
+        <p>Customer Service- +254793700614</p>
+        <p>Twitter- Tunzwa_immunization</p>
+        <p>Instagram-Tunzwa_immunization</p>
+        <p>Gmail-tunzwaimmunization@gmail.com</p>
     </div>
 
 </body>

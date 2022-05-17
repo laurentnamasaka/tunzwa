@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,24 +15,15 @@
     <!-- main style document -->
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
 
     <!-- <div class="SecondaryMenu-Wrapper">
         <a href="index.html"><img src="./Homeimage2.jpg" class="row"></a>
     </div> -->
-  
-    <div class="container">
-        <div class="topnavigation">
-            <a href="index.php"><img src="./immunization2.png" class="logo"></a>
-            
-                <a href="index.php">home</a>
-                <a href="booking.php">booking</a>
-                <a href="contacts.html">contacts</a>
-                <a href="aboutus.html">aboutus</a>
-                                 
-        </div>
-        
-    </div>
+
+    <?php include __DIR__ . '/navbar.php'; ?>
+
 
     <div class="container">
         <div class="signup-bg-img">
@@ -42,6 +34,7 @@
 
         </div>
     </div>
-    
+
 </body>
+
 </html>
