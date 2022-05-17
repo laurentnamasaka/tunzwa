@@ -173,7 +173,8 @@ h1{
 
 form {
     padding-top: 80px;
-    
+    width: 350px;
+    margin-left: 30%;
 }
 
 form input, form select {
@@ -230,7 +231,7 @@ form input, form select {
     background-repeat: no-repeat;
     height: 600px;
 }
-/*inserting Sign-up background image*/
+/*inserting Sign-up background image
 .signup-bg-img{
     background-image: url(./signup.jpg);
     background-position: center;
@@ -252,10 +253,9 @@ form input, form select {
     font-size: xx-large;
     margin:auto;
     padding:0;
-    font: weight 600px;  
-    
+    font: weight 600px;
 }
-/*Inserting image for aboutus page*/
+/*Inserting image for signup page*/
 .signup-bg-img
 {
     background-image: url(./signup.jpg);
@@ -263,4 +263,5 @@ form input, form select {
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
+    width: 100%;
 }

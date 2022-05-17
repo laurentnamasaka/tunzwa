@@ -36,18 +36,16 @@ if (isset($_SESSION["user_id"])) {
 </head>
 <body>
 
-    <div class="container">
+<div class="container">
         <div class="topnavigation">
-            <a href="index.html"><img src="./immunization2.png" class="logo"></a>
-            <ul>
-                <li><a href="index.html">home</a></li>
-                <li><a href="booking.html">booking</a></li>
-                <li><a href="education.html">education</a></li>
-                <li><a href="contacts.html">contacts</a></li>
-                <li><a href="aboutus.html">aboutus</a></li>
-            </ul>
-
-
+            <a href="index.php"><img src="./immunization2.png" class="logo"></a>
+            
+                <a href="index.php">home</a>
+                <a href="booking.php">booking</a>
+                <a href="contacts.html">contacts</a>
+                <a href="aboutus.html">aboutus</a>
+        
+   
                  <?php if (isset($user)): ?>
         
         <p>Hello <?= htmlspecialchars($user["name"]) ?></p>
@@ -63,16 +61,14 @@ if (isset($_SESSION["user_id"])) {
         </div>
        
     </div>
-    
+    </div>
+    </div>
+
     <div class="container">
         <div class="body-bg-img">
             <h1>TUNZWA IMMUNISATION SYSTEM</h1>
         </div>
-    </div>
-
-    Install prettier extension
-    Ctrl Shift 
-    
+    </div> 
     
 </body>
 </html>
