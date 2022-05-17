@@ -34,7 +34,6 @@
             <img class="contact-img" src="./tunzwa.jpg" alt="Image details" />
         </div>
     </div>
-
 </body>
 
 </html>

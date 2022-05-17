@@ -1,3 +1,20 @@
+<?php
+
+session_start();
+
+if (isset($_SESSION["user_id"])) {
+
+    $mysqli = require __DIR__ . "/database.php";
+
+    $sql = "SELECT * FROM users
+        WHERE id = {$_SESSION["user_id"]}";
+
+    $result = $mysqli->query($sql);
+
+    $user = $result->fetch_assoc();
+}
+
+?>
 <div class="container">
     <div class="topnavigation">
         <a href="index.php"><img src="./immunization2.png" class="logo"></a>
@@ -10,9 +27,11 @@
         </ul>
         <?php if (isset($user)) : ?>
 
-            <p style="font-size: 12px; text-align: center; padding: 15px; margin-left: 150px;">Hello <?= htmlspecialchars($user["name"]) ?></p>
+            <p style="font-size: 12px; text-align: center; padding: 15px; margin-left: -200px;">
+                Hello <?= substr($user["name"], 0, strpos($user['name'], ' ')) ?>
+            </p>
 
-            <a href="logout.php">Log out</a>
+            <a style="margin-left: -200px;" href="logout.php">Log out</a>
 
         <?php else : ?>
 
