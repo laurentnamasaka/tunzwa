@@ -19,6 +19,11 @@ body {
   flex-wrap: wrap;
 }
 
+.row > * {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+}
 .small-column {
   flex-basis: 20%;
   padding: 10px 0;
@@ -79,11 +84,11 @@ body {
 }
 /*Formatting the heading*/
 h1 {
-  text-align: center;
+  /* text-align: center; */
   padding: 15px;
   font-size: xx-large;
   position: absolute;
-  left: 35%;
+  /* left: 35%; */
 }
 /*Styling the new log-in form*/
 /*body
@@ -207,7 +212,6 @@ button {
 .booking {
   max-width: 500px;
   margin: auto;
-  border: 0px solid black;
   padding: 2rem;
   top: 10%;
   border-radius: 2%;
@@ -251,8 +255,19 @@ button {
   height: 600px;
   width: 100%;
 }
-
+.w-100 {
+  width: 100% !important;
+}
+.col {
+  flex: 0 0 auto;
+  width: 8.33333333%;
+}
+.col-2 {
+  flex: 0 0 auto;
+  width: 16.66666667%;
+}
 .col-6 {
+  flex: 0 0 auto;
   width: 50%;
 }
 
@@ -265,6 +280,17 @@ button {
   margin-left: 10px;
   width: 98%;
   min-height: 84vh;
+}
+
+.portal-img {
+  margin-left: 10px;
+  width: 98%;
+  max-height: 87vh;
+}
+.btn-cta {
+  background-color: lightgray;
+  width: 100%;
+  color: black;
 }
 
 /* Debugging */
