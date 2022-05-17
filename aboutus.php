@@ -18,21 +18,23 @@
 
 <body>
 
-    <!-- <div class="SecondaryMenu-Wrapper">
-        <a href="index.html"><img src="./Homeimage2.jpg" class="row"></a>
-    </div> -->
-
     <?php include __DIR__ . '/navbar.php'; ?>
 
 
-    <div class="container">
-        <div class="signup-bg-img">
-            <h1>TUNZWA IMMUNISATION SYSTEM</h1>
-            <p>Tunzwa Immunization System is a website designed to ease the long, hectic but vital process of immunization of children. Instead of using physical schedule books that are at risks of losing important vaccination data, this systems allows its users to book immunization dates and it safely saves the information data in a secure database. It then sends reminders on the immunization dates to prevent cases of forgetfullness that in turn leads to missing important vaccines.</p>
-            <p>Tunzwa Immunization System functions with a goal of easing the entire immunization process and increasing the immunization rates among children. Missing of essential vaccines might lead to permanent disorders like paralysis or even death. Hence, the system functions to aid in reducing and ultimate eradicating child deaths due to missing vaccinations.</p>
-            <p>Tunzwa allows every accessor to get some essential facts and education on the importance of child immunization before anything else. It allows account creation for every accessor that would like to use the system to book vaccination dates. Once the user has successfully registered themselves into the system, they can pay for the vaccine as they book their vaccination dates. They will then receive constant reminders to ensure they do not miss their vaccination sessions.</p>
-
+    <div class="row">
+        <div class="col-6">
+            <img class="aboutus-img" src="./Homeimage.jpg" alt="Image details" />
         </div>
+        <div class="col-6" style="padding: 25px;">
+            <center>
+                <p>Tunzwa Immunization System is a website designed to ease the long, hectic but vital process of immunization of children. Instead of using physical schedule books that are at risks of losing important vaccination data, this systems allows its users to book immunization dates and it safely saves the information data in a secure database. It then sends reminders on the immunization dates to prevent cases of forgetfullness that in turn leads to missing important vaccines.</p>
+                <p>Tunzwa Immunization System functions with a goal of easing the entire immunization process and increasing the immunization rates among children. Missing of essential vaccines might lead to permanent disorders like paralysis or even death. Hence, the system functions to aid in reducing and ultimate eradicating child deaths due to missing vaccinations.</p>
+                <p>Tunzwa allows every accessor to get some essential facts and education on the importance of child immunization before anything else. It allows account creation for every accessor that would like to use the system to book vaccination dates. Once the user has successfully registered themselves into the system, they can pay for the vaccine as they book their vaccination dates. They will then receive constant reminders to ensure they do not miss their vaccination sessions.</p>
+
+            </center>
+        </div>
+    </div>
+
     </div>
 
 </body>

@@ -264,6 +264,21 @@ form input, form select {
     width: 100%;
 }
 
+.col-6 {
+    width: 50%;
+}
+
+.contact-img {
+    width: 98%;
+    min-height: 84vh;
+}
+
+.aboutus-img {
+    margin-left: 10px;
+    width: 98%;
+    min-height: 84vh;
+}
+
 /* Debugging */
 .border-red {
     border: 2px solid red;

@@ -19,14 +19,20 @@
 <body>
     <?php include __DIR__ . '/navbar.php'; ?>
 
-    <div class="contact-bg-img">
-        <div class="paragraph1"></div>
-        <h2>Jab for Life:)</h2>
-        <p>Customer Care- +254742555673</p>
-        <p>Customer Service- +254793700614</p>
-        <p>Twitter- Tunzwa_immunization</p>
-        <p>Instagram-Tunzwa_immunization</p>
-        <p>Gmail-tunzwaimmunization@gmail.com</p>
+    <div class="row">
+        <div class="col-6" style="padding: 25px;">
+            <center>
+                <h2>Jab for Life :-)</h2>
+                <p>Customer Care- +254742555673</p>
+                <p>Customer Service- +254793700614</p>
+                <p>Twitter- Tunzwa_immunization</p>
+                <p>Instagram-Tunzwa_immunization</p>
+                <p>Gmail-tunzwaimmunization@gmail.com</p>
+            </center>
+        </div>
+        <div class="col-6">
+            <img class="contact-img" src="./tunzwa.jpg" alt="Image details" />
+        </div>
     </div>
 
 </body>
