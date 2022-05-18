@@ -41,11 +41,6 @@
                             <label for="Surname"><b>Surname</b></label>
                             <input type="text" name='Surname' id='Surname' required placeholder="Surname">
                         </div>
-
-                        <div class="col-2" style='width:60%;'>
-                            <label for=" MiddleName"><b> Middle name</b></label>
-                            <input type="text" name='MiddleName' id='MiddleName' required placeholder="Middle Name">
-                        </div>
                     </div>
 
                     <div class="row">
@@ -164,6 +159,55 @@
 
                         </select>
 
+                        <label for="Hospital">Hospital</label>
+                        <select name='Hospital' id='Hospital' required>
+                            <option value="Mombasa Referral Hospital">Mombasa Referral Hospital</option>
+                            <option value="Kwale Referral Hospital">Kwale Referral Hospital</option>
+                            <option value="Kilifi Referral Hospital">Kilifi Referral Hospital</option>
+                            <option value="TanaRiver Referral Hospital">Tana Referral Hospital River</option>
+                            <option value="Lamu Referral Hospital">Lamu Referral Hospital</option>
+                            <option value="TaitaTaveta Referral Hospital">TaitaTaveta Referral Hospital</option>
+                            <option value="Garissa Referral Hospital">Garissa Referral Hospital</option>
+                            <option value="Wajir Referral Hospital">Wajir Referral Hospital</option>
+                            <option value="Marsabit Referral Hospital">Marsabit Referral Hospital</option>
+                            <option value="Mandera Referral Hospital">Mandera Referral Hospital</option>
+                            <option value="Isiolo Referral Hospital">Isiolo Referral Hospital</option>
+                            <option value="Meru Referral Hospital">Meru Referral Hospital</option>
+                            <option value="Tharaka-Nithi Referral Hospital">Tharaka-Nithi Referral Hospital</option>
+                            <option value="Embu Referral Hospital">Embu Referral Hospital</option>
+                            <option value="Machakos Referral Hospital">Machakos Referral Hospital</option>
+                            <option value="Makueni Referral Hospital">Makueni Referral Hospital</option>
+                            <option value="Nyandarua Referral Hospital">Nyandarua Referral Hospital</option>
+                            <option value="Nyeri Referral Hospital">Nyeri Referral Hospital</option>
+                            <option value="Kirinyaga Referral Hospital">Kirinyaga Referral Hospital</option>
+                            <option value="Muranga Referral Hospital">Muranga Referral Hospital</option>
+                            <option value="Kiambu Referral Hospital">Kiambu Referral Hospital</option>
+                            <option value="Turkana Referral Hospital">Turkana Referral Hospital</option>
+                            <option value="WestPokot Referral Hospital">WestPokot Referral Hospital</option>
+                            <option value="Samburu Referral Hospital">Samburu Referral Hospital</option>
+                            <option value="Trans Referral Hospital-Nzoia"> Referral HospitalTrans-Nzoia</option>
+                            <option value="UasinGishu Referral Hospital">UasinGishu Referral Hospital</option>
+                            <option value="Elgeyo-Marakwet Referral Hospital">Elgeyo-Marakwet Referral Hospital</option>
+                            <option value="Nandi Referral Hospital">Nandi Referral Hospital</option>
+                            <option value="Baringo Referral Hospital">Baringo Referral Hospital</option>
+                            <option value="Laikipia Referral Hospital">Laikipia Referral Hospital</option>
+                            <option value="Nakuru Referral Hospital">Nakuru Referral Hospital</option>
+                            <option value="Narok Referral Hospital">Narok Referral Hospital</option>
+                            <option value="Kajiado Referral Hospital">Kajiado Referral Hospital</option>
+                            <option value="Kericho Referral Hospital">Kericho Referral Hospital</option>
+                            <option value="Bomet Referral Hospital">Bomet Referral Hospital</option>
+                            <option value="Kakamega Referral Hospital">Kakamega Referral Hospital</option>
+                            <option value="Vihiga Referral Hospital">Vihiga Referral Hospital</option>
+                            <option value="Bungoma Referral Hospital">Bungoma Referral Hospital</option>
+                            <option value="Busia Referral Hospital">Busia Referral Hospital</option>
+                            <option value="Siaya Referral Hospital">Siaya Referral Hospital</option>
+                            <option value="HomaBay Referral Hospital">HomaBay Referral Hospital</option>
+                            <option value="Migori Referral Hospital">Migori Referral Hospital</option>
+                            <option value="Kisii Referral Hospital">Kisii Referral Hospital</option>
+                            <option value="Nyamira Referral Hospital">Nyamira Referral Hospital</option>
+                            <option value="Nairobi Referral Hospital">Nairobi Referral Hospital</option>
+                            <option value="Kilifi Referral Hospital">Kilifi Referral Hospital</option>
+                        </select>
 
                         <div class="row">
                             <div class="col" style='width:50%;'>
@@ -180,8 +224,8 @@
                         <label for="Email">Email</label>
                         <input type="email" name="Email" id="Email" required>
 
+                        <button class="btn-cta" type="submit">Submit</button>
                         <div class="col" style='width:50%;'>
-                            <button class="btn-cta" type="submit">Submit</button>
                         </div>
                     </div>
             </div>
