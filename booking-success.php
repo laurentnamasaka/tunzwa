@@ -22,21 +22,28 @@
 
     <div class="row">
         <div class="col-6">
+            <a href="index.php" style="padding: 20px;">Go back to the home page</a>
+
             <div class="w-100" style="padding: 100px;">
                 <center>
-                <p>
-                    Your booking has been made successfully!!
-                </p>
-                <p>
-                We are looking foward to your child's immunisation day :)
-                </p>
+                    <p>
+                        Your booking has been made successfully!!
+                    </p>
+                    <p>
+                        We are looking foward to your child's immunisation day :)
+                    </p>
                 </center>
 
-                <a href="https://calendar.google.com" target="_blank">Would you like to set reminders for the day? Click Here.</a>
+                <span>
+                    Would you like to set reminders for the day?
+                    <a href="https://calendar.google.com" target="_blank">
+                        Set it here.
+                    </a>
+                </span>
             </div>
         </div>
         <div class="col-6">
-            <img class="portal-img" src="./confirmation.jpg" alt="Image details" />
+            <img class="booking-success-img" src="./confirmation.jpg" alt="Image details" />
         </div>
     </div>
 

@@ -291,6 +291,13 @@ button {
   width: 98%;
   max-height: 87vh;
 }
+
+.booking-success-img {
+  margin-left: 10px;
+  width: 98%;
+  max-height: 87vh;
+}
+
 .btn-cta {
   background-color: lightgray;
   width: 100%;

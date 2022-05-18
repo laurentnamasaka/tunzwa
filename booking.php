@@ -228,11 +228,14 @@
                         <div class="col" style='width:50%;'>
                         </div>
                     </div>
+                </form>
             </div>
-            </form>
+
         </div>
         <div class="col-6">
-            <img class="portal-img" src="./aboutus.jpg" alt="Image details" />
+            <div class="portal-img">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.6187605656282!2d34.558049515324186!3d0.5730590637368338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1781d68cc6ae7ccb%3A0x9e56d86a170a49af!2sBungoma%20County%20Referral%20Hospital!5e0!3m2!1sen!2ske!4v1652895401362!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </div>
     </div>
 
